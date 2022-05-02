@@ -12,7 +12,7 @@ body,html{
 #s1{
     height: 100vh;
     padding: 18px;
-    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(/bag.jpg);
+    background-image:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(../bag.jpg);
     background-size: cover;
     overflow: hidden;
 }
