@@ -264,7 +264,7 @@ footer{
 .qus:hover #em{
     margin-bottom: 100px;
 }
-@media only screen and (min-width: 360px) {
+@media only screen and (max-width: 360px) {
     #s1 {
         height: 78vh;
         padding: 18px;
