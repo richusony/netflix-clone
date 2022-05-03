@@ -265,12 +265,16 @@ footer{
     margin-bottom: 100px;
 }
 @media only screen and (max-width: 360px) {
+    body{
+        background-color: rgb(139, 139, 139);
+    }
     #s1 {
-        height: 78vh;
+        height: 68vh;
         padding: 18px;
         background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0px, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(/bag.jpg);
         background-size: cover;
         overflow: hidden;
+        margin-bottom: 106px;
     }
     input {
             width: 319px;
@@ -280,6 +284,7 @@ footer{
     }
     #faq{
         overflow: hidden;
+        margin-top: 5px;
     }
     h1{
         margin: 0;
@@ -332,5 +337,73 @@ footer{
         text-align: center;
         margin-top: 6px;
         font-size: 0.9rem;
+    }
+    #s2 {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: white;
+        height: 65vh;
+        overflow: hidden;
+        margin-bottom: 5px;
+    }
+    #tv{
+        display: flex;
+        align-items: center;
+        margin-top: 97px;
+        flex-direction: column;
+    }
+    img#tl {
+        width: 305px;
+        height: 259px;
+    }
+    #mb {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #s3 {
+        background-color: rgba(0, 0, 0, 0.8);
+        height: 70vh;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    #ml{
+        width: 360px;
+        height: 344px;
+    }
+    #hs{
+        margin-top: 60px;
+    }
+    #s4 {
+        background-color: rgba(0, 0, 0, 0.8);
+        height: 70vh;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    #dvs {
+        display: flex;
+        width: 360px;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    #ds{
+        width: 360px;
+        margin-top: 50px;
+    }
+    #chl {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 360px;
+    }
+    #s5 {
+        background-color: rgba(0, 0, 0, 0.8);
+        height: 71vh;
+        overflow: hidden;
+        margin-top: 5px;
+    }
+    #ch{
+        width: 360px;
+        height: 320px;
     }
 }
