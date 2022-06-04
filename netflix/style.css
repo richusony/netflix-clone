@@ -264,7 +264,7 @@ footer{
 .qus:hover #em{
     margin-bottom: 100px;
 }
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 600px) {
     body{
         background-color: rgb(139, 139, 139);
     }
